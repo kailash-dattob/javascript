@@ -34,3 +34,30 @@ const myFunction = function(){
 }
 
 //https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+
+
+// Memory type : Stack(primitive), Heap (Non Primitive)
+
+
+let myYoutubename = "kailash@gmail.com"
+
+let anotherName = myYoutubename
+
+anotherName = "javascriptCode"
+
+console.log(myYoutubename)
+console.log(anotherName)
+
+let userOne = {
+    email: "kailash@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "kailash@google.com"
+
+console.log(userOne.email)
+console.log(userTwo.email)
